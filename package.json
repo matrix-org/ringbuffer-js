@@ -1,0 +1,37 @@
+{
+  "name": "@thirdroom/ringbuffer",
+  "version": "0.0.1",
+  "description": "thread safe data structures for javascript",
+  "contributors": [
+    {
+      "name": "Nathaniel Martin",
+      "email": "mrtn.nathaniel@gmail.com",
+      "url": "https://github.com/NateTheGreatt"
+    },
+    {
+      "name": "Robert Long",
+      "url": " http://robertlong.me"
+    }
+  ],
+  "license": "MPL-2.0",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/RingBuffer.d.ts",
+  "main": "./dist/RingBuffer.js",
+  "module": "./dist/RingBuffer.js",
+  "exports": {
+    ".": {
+      "import": "./dist/RingBuffer.js",
+      "require": "./dist/RingBuffer.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.38"
+  }
+}
