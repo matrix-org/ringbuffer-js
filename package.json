@@ -1,6 +1,6 @@
 {
   "name": "@thirdroom/ringbuffer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "thread safe data structures for javascript",
   "contributors": [
     {
@@ -14,24 +14,16 @@
     }
   ],
   "license": "MPL-2.0",
+  "type": "module",
   "files": [
     "dist"
   ],
   "types": "./dist/RingBuffer.d.ts",
   "main": "./dist/RingBuffer.js",
-  "module": "./dist/RingBuffer.js",
-  "exports": {
-    ".": {
-      "import": "./dist/RingBuffer.js",
-      "require": "./dist/RingBuffer.js"
-    }
-  },
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {
-  },
   "devDependencies": {
-    "@types/node": "^17.0.38"
+    "typescript": "^5.0.4"
   }
 }
